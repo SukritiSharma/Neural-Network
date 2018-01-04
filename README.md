@@ -23,10 +23,10 @@ First I have set each weight to a random number. Then training process begins as
 * Process is 1000 times.
 
 Output of neuron is calculated by taking weighted sum of input and then normalising it so that result is between 0 and 1. 
-![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/output.pngg "Output equation")
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/output.png)
 
 Weighted sum is calculated as 
-![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/weight_sum.png "Weighted sum")
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/weight_sum.png)
 
 Normalised through sigmoid function
 ![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/sigmoid_eq.png "Sigmoid eq")
