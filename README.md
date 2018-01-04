@@ -22,7 +22,7 @@ First I have set each weight to a random number. Then training process begins as
 * Depending on the direction of the error, weights are adjusted slightly.
 * Process is 1000 times.
 
-Output of neuron is calculated by taking weighted sum of input and then normalising it so that result is between 0 and 1. 
+*Output of neuron* is calculated by taking weighted sum of input and then normalising it so that result is between 0 and 1. 
 ![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/output.png)
 
 Weighted sum is calculated as 
@@ -35,3 +35,9 @@ If plotted on a graph, the Sigmoid function draws an S shaped curve.
 
 ![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/sigmoid_graph.png "Sigmoid eq")
 
+*Weights* are adjusted using “Error Weighted Derivative” formula:
+
+![](https://github.com/SukritiSharma/Neural-Network/blob/master/img/Error_derivative.png)
+ 
+This formula makes adjustment proportional to the size of the error. Since input is multiplied (0 or 1) so when input is 0, the weights are not adjusted. And finally gradient of the Sigmoid curve is multiplied.
+There are alternative formulae, which would allow the neuron to learn more quickly, but this one has the advantage of being fairly simple.
