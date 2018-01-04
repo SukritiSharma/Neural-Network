@@ -22,4 +22,16 @@ First I have set each weight to a random number. Then training process begins as
 * Depending on the direction of the error, weights are adjusted slightly.
 * Process is 1000 times.
 
-Output of neuron is calculated by 
+Output of neuron is calculated by taking weighted sum of input and then normalising it so that result is between 0 and 1. 
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/output.pngg "Output equation")
+
+Weighted sum is calculated as 
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/weight_sum.png "Weighted sum")
+
+Normalised through sigmoid function
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/sigmoid_eq.png "Sigmoid eq")
+
+If plotted on a graph, the Sigmoid function draws an S shaped curve.
+
+![alt text](https://github.com/SukritiSharma/Neural-Network/blob/master/img/sigmoid_graph.png "Sigmoid eq")
+
