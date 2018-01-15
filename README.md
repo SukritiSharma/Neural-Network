@@ -1,7 +1,7 @@
 # Neural-Network
 This is a simple model with single neuron with three input and single output.
 
-Model will be train the neuron to solve the problem below. The first four examples are called a training set. Test set will be Should the ‘?’ be 0 or 1?
+Model will train the neuron to solve the problem below. The first four examples are called a training set. Test set will be Should the ‘?’ be 0 or 1?
 
 
 |          | Input | |  | Output |
